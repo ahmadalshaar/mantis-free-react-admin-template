@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",                                  // Set the JavaScript language version for emitted JavaScript
+    "module": "esnext",                                // Specify what module code is generated
+    "baseUrl": "src",                                   // Set baseUrl to the src directory
+    "jsx": "react-jsx",                                 // Specify the JSX code generation
+    "strict": true,                                     // Enable all strict type-checking options
+    "moduleResolution": "node",                          // Use Node.js-style module resolution
+    "esModuleInterop": true,                            // Enables emit interoperability between CommonJS and ES Modules
+    "skipLibCheck": true,                               // Skip type checking of declaration files
+    "forceConsistentCasingInFileNames": true            // Disallow inconsistently-cased references to the same file
+  },
+  "include": ["src/**/*"],                              // Include all files in the src directory
+  "exclude": ["node_modules"]                           // Exclude the node_modules directory
+}
