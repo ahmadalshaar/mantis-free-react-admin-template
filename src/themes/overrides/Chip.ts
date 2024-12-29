@@ -64,15 +64,15 @@ export default function Chip(theme:any) {
           '&.MuiChip-lightSuccess': getColorStyle({ color: 'success', theme }),
           '&.MuiChip-lightWarning': getColorStyle({ color: 'warning', theme })
         },
-        combined: {
+        outlined: {
           border: '1px solid',
           ...defaultLightChip,
-          '&.MuiChip-combinedPrimary': getColorStyle({ color: 'primary', theme }),
-          '&.MuiChip-combinedSecondary': getColorStyle({ color: 'secondary', theme }),
-          '&.MuiChip-combinedError': getColorStyle({ color: 'error', theme }),
-          '&.MuiChip-combinedInfo': getColorStyle({ color: 'info', theme }),
-          '&.MuiChip-combinedSuccess': getColorStyle({ color: 'success', theme }),
-          '&.MuiChip-combinedWarning': getColorStyle({ color: 'warning', theme })
+          '&.MuiChip-outlinedPrimary': getColorStyle({ color: 'primary', theme }),
+          '&.MuiChip-outlinedSecondary': getColorStyle({ color: 'secondary', theme }),
+          '&.MuiChip-outlinedError': getColorStyle({ color: 'error', theme }),
+          '&.MuiChip-outlinedInfo': getColorStyle({ color: 'info', theme }),
+          '&.MuiChip-outlinedSuccess': getColorStyle({ color: 'success', theme }),
+          '&.MuiChip-outlinedWarning': getColorStyle({ color: 'warning', theme })
         }
       }
     }

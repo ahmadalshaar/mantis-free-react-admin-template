@@ -25,13 +25,13 @@ export default function ProfileTab() {
 
   return (
     <List component="nav" sx={{ p: 0, '& .MuiListItemIcon-root': { minWidth: 32 } }}>
-      <ListItemButton selected={selectedIndex === 0} onClick={(event) => handleListItemClick(event, 0, '/apps/profiles/user/personal')}>
+      <ListItemButton selected={selectedIndex === 0} onClick={(event:any) => handleListItemClick(event, 0, '/apps/profiles/user/personal')}>
         <ListItemIcon>
           <EditOutlined />
         </ListItemIcon>
         <ListItemText primary="Edit Profile" />
       </ListItemButton>
-      <ListItemButton selected={selectedIndex === 1} onClick={(event) => handleListItemClick(event, 1, '/apps/profiles/account/basic')}>
+      <ListItemButton selected={selectedIndex === 1} onClick={(event:any) => handleListItemClick(event, 1, '/apps/profiles/account/basic')}>
         <ListItemIcon>
           <UserOutlined />
         </ListItemIcon>

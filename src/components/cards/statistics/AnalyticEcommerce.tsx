@@ -38,8 +38,8 @@ export default function AnalyticEcommerce({ color = 'primary', title, count, per
           </Grid>
           {percentage && (
             <Grid item>
-              <Chip
-                variant="outlined"
+              <Chip              
+                variant="outlined"                
                 color={color}
                 icon={isLoss ? <FallOutlined style={iconSX} /> : <RiseOutlined style={iconSX} />}
                 label={`${percentage}%`}

@@ -60,8 +60,8 @@ const MainCard = forwardRef<HTMLDivElement, MainCardProps>(
       sx={{
         border: border ? '1px solid' : 'none',
         borderRadius: 2,
-        borderColor: theme.palette.mode === 'dark' ? theme.palette.divider : theme.palette.grey.A700,
-        boxShadow: boxShadow && (!border || theme.palette.mode === 'dark') ? shadow || theme.shadows[1] : 'inherit',
+        borderColor: theme.palette.mode === 'dark' ? theme.palette.divider : theme.palette.grey[200],
+        boxShadow: boxShadow && (!border || theme.palette.mode === 'dark') ? shadow || theme.shadows[2] : 'inherit',
         ':hover': {
           boxShadow: boxShadow ? shadow || theme.shadows[1] : 'inherit'
         },
